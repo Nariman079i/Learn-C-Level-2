@@ -12,7 +12,7 @@ namespace NarimanJobs
         {
 
 
-            void Task1()
+            void Task1() //1
             {
 
                 string outPut, outPut1;
