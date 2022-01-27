@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Internal;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -336,6 +337,26 @@ namespace NarimanJobs
                 
             }
 
+            void Task18()
+            {
+
+                int x = Convert.ToInt32(Console.ReadLine());
+                if (0 < x & x < 10){
+                    for (int n = 2; n <= x; n++)
+                    {
+                        if (x % n == 0)
+                        {
+                            Console.WriteLine("{0} {1}", x, n);
+                        }
+
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Вы ввели число не входяший в диапозон (0, 10)");
+                }
+            }       
+            Task18();
 
             
             Console.ReadKey();
